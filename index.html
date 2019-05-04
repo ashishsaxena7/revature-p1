@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image Share</title>
+</head>
+<body>
+    <header>Upload pictures here</header>
+    <form ref='uploadForm' id='uploadForm' action='/upload' method='post' encType="multipart/form-data">
+      <input type="file" name="sampleFile">
+      <button type='submit' value='Add'>Add Picture</button>
+
+
+      <div id="album"></div>
+
+  </form> 
+  <script src="client.js"></script>
+</body>
+</html>
